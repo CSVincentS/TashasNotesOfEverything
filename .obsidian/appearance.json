@@ -1,0 +1,26 @@
+{
+  "baseFontSize": 16,
+  "translucency": false,
+  "cssTheme": "Prism",
+  "theme": "obsidian",
+  "enabledCssSnippets": [
+    "Buttons",
+    "Callouts",
+    "Cards",
+    "Columns",
+    "Embed Adjustments",
+    "Image Adjustments",
+    "Lists",
+    "Modal Form",
+    "NPC Toggle",
+    "Popup",
+    "Prism Theme Edits",
+    "Tables"
+  ],
+  "baseFontSizeAction": false,
+  "accentColor": "#fcfcfc",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "monospaceFontFamily": "Fira Code",
+  "textFontFamily": ""
+}

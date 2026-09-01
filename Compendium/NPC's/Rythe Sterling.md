@@ -1,0 +1,64 @@
+---
+locations:
+  - "[[Waterdeep]]"
+tags:
+  - affinity/hostile
+  - job/scribe
+  - race/human
+type: npc
+---
+
+###### Rythe Sterling
+
+<span class="sub2">:FasMapLocationDot: [[Waterdeep|Waterdeep]] &nbsp; | &nbsp;:FasHeartPulse: Hostile</span>
+
+___
+
+> [!infobox|no-t right]
+> ![[rythe.webp]]
+> ###### Details:
+>
+> | Type | Stat |
+> | ---- | ---- |
+> |:FasBriefcase:  Job | Scribe |
+> |:FasVenusMars: Gender | Male |
+> |:FasUser: Race | Human |
+
+<span class="clearfix"></span>
+
+> [!quote|no-t]
+> Rythe, a pale and bald human wizard from Waterdeep, maintains an unassuming presence in the city. Though lacking in overt magical prowess, he quietly navigates the streets, his true allegiance hidden as a member of the [[Black Fingers]]. Behind his unremarkable facade lies a secretive figure, weaving subtle threads of influence within the shadows of Waterdeep's intricate web of intrigue.
+
+> [!column|flex 3]
+>
+> > [!important]- QUESTS:
+> >
+>> ```base
+>> properties:
+>>   file.name:
+>>     displayName: Name
+>> views:
+>>   - type: table
+>>     name: Name
+>>     filters:
+>>       and:
+>>         - file.inFolder("Compendium/Party/Quests")
+>>         - 'list(assignor).contains(this)'
+>>     order:
+>>       - file.name
+>> ```
+>
+> > [!note]- HISTORY
+> >
+>> ```base
+>> properties:
+>>   file.name:
+>>     displayName: Name
+>> views:
+>>   - type: table
+>>     name: Session Notes
+>>     filters:
+>>       and:
+>>         - file.inFolder("Session Notes")
+>>         - file.hasLink(this.file)
+>> ```

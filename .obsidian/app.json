@@ -1,0 +1,21 @@
+{
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "promptDelete": false,
+  "attachmentFolderPath": "Assets/Images",
+  "foldHeading": false,
+  "legacyEditor": false,
+  "livePreview": false,
+  "foldIndent": false,
+  "strictLineBreaks": false,
+  "showFrontmatter": false,
+  "showLineNumber": false,
+  "showIndentGuide": false,
+  "readableLineLength": true,
+  "showInlineTitle": false,
+  "defaultViewMode": "preview",
+  "rightToLeft": false,
+  "propertiesInDocument": "hidden",
+  "focusNewTab": true,
+  "showUnsupportedFiles": true
+}

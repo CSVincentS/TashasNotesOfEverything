@@ -1,0 +1,65 @@
+/* Modal Form changes */
+.modal-form input[type="date"] {
+	min-width: 170px;
+	font-size: 1.1em;
+}
+.modal-form select.dropdown {
+	min-width: 170px;
+	font-size: 1em;
+}
+.suggestion-container {
+	min-width: 170px;
+}
+.modal-close-button {
+	display: none;
+}
+.modal-form h1 {
+	text-align: center;
+}
+.modal-form .setting-item {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.modal-form .setting-item:nth-child(odd) {
+	background-color: rgba(0, 0, 0, 0.15) !important;
+}
+
+h6 .headerTitle input {
+	font-size: var(--h5-size);
+	font-weight: var(--h5-size) !important;
+	color: var(--h6-color);
+	background-color: transparent;
+	padding: 0.5em 0.5em 0.5em 0em;
+	width: 100% !important;
+}
+/* Adjust the input field inside the span */
+.quote input {
+	display: inline-flex;
+	flex: 1;
+}
+/* Adjust the input field inside the span */
+.stats input {
+	width: 94%;
+}
+
+.modal-content:not(.is-mobile) .setting-item-info {
+	min-width: 60px !important;
+}
+
+.multi-select-root:not(.is-mobile) {
+	display: flex !important;
+	gap: 0.5rem !important;
+	flex: 1 !important;
+	flex-direction: column !important;
+	align-items: flex-end !important;
+}
+
+.multi-select-root:not(.is-mobile) .badges {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	min-height: 2rem;
+	padding: 0.5rem 0 0 0;
+	flex-direction: row-reverse;
+	justify-content: flex-start;
+}

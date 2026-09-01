@@ -1,0 +1,58 @@
+---
+tags:
+  - domain/life
+  - domain/light
+  - pantheon/faerûnian
+type: deity
+---
+
+###### Lathander
+
+<span class="sub2">:FasCross: Deity &nbsp; | &nbsp;:FasYinYang: Neutral Good</span>
+
+___
+
+> [!infobox|no-t right]
+> ![[lathander.jpg]]
+> ###### Details:
+>
+> | Type | Stat |
+> | ---- | ---- |
+> |:FasBoltLightning: Domains | Life, Light |
+> |:FasVenusMars: Gender | Male |
+> |:FasBuildingColumns: Pantheon | Faerûnian |
+
+> [!quote|no-t]
+> Lathander (pronounced: lah-THÆN-der) is a Faerûnian greater god with a vast portfolio including birth, renewal, spring and youth, athletics, self-perfection, vitality and creativity. The Morninglord is symbolized by the rising sun, which represents the potential of a new day. Lathander was also the central figure in the [[Dawn Cataclysm]], an ill-fated attempt to reshape the Faerûnian pantheon in his own image and the cause of "death" for [[Tyche]], his lover at the time.
+
+> [!column|flex 3]
+>
+> > [!hint]- NPC's
+> >
+>> ```base
+>> properties:
+>>   file.name:
+>>     displayName: Name
+>> views:
+>>   - type: table
+>>     name: Name
+>>     filters:
+>>       and:
+>>         - file.inFolder("Compendium/NPC's")
+>>         - file.hasLink(this.file)
+>> ```
+>
+> > [!note]- HISTORY
+> >
+>> ```base
+>> properties:
+>>   file.name:
+>>     displayName: Name
+>> views:
+>>   - type: table
+>>     name: Session Notes
+>>     filters:
+>>       and:
+>>         - file.inFolder("Session Notes")
+>>         - file.hasLink(this.file)
+>> ```

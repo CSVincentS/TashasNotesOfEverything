@@ -1,0 +1,74 @@
+---
+class:
+  - Fighter
+  - Rogue
+cover: /Assets/Images/Party/alaric.png
+level: "4"
+race: Half-Orc
+subClass:
+  - Battle Master
+  - Swashbuckler
+tags:
+  - class/fighter
+  - class/rogue
+  - race/halfOrc
+  - subclass/battleMaster
+  - subclass/swashbuckler
+type: pc
+parties:
+  - "[[LASTSTAND]]"
+---
+
+###### Alaric Waycrest
+
+:FasPerson: Player Character &nbsp; | &nbsp;:FasQuoteLeft: In battle, I find my true purpose:FasQuoteRight:
+
+___
+
+> [!infobox|no-t right]
+> ![[alaric.png]]
+> ###### Details:
+>
+> | Type | Stat |
+> | ---- | ---- |
+> |:FasCrown: Level   | `=this.level` |
+> |:RiSwordFill: Class | `=join(this.class, "<br>")`|
+> |:FasFireFlameCurved: Archetype |  `=join(this.subClass, "<br>")`|
+> |:FasUserGroup: Race |  `=this.race`|
+
+> [!quote|no-t]
+> Alaric Wayrest is a rugged half-orc fighter hailing from [[Baldurs Gate|Baldur's Gate]], known for his unwavering loyalty and formidable combat skills. As a member of the adventuring party [[LASTSTAND]], he stands as a stalwart defender against the forces of darkness. Alaric shares a deep bond with his childhood friend [[Moira Belkas]], their connection forged through shared trials and triumphs.
+
+> [!column|flex 3]
+>
+> > [!important]- STORYLINES:
+> >
+>> ```base
+>> properties:
+>>   file.name:
+>>     displayName: Name
+>> views:
+>>   - type: table
+>>     name: Name
+>>     filters:
+>>       and:
+>>         - file.inFolder("Compendium/Party/Quests")
+>>         - 'list(assignee).contains(this)'
+>>     order:
+>>       - file.name
+>> ```
+>
+> > [!note]- HISTORY
+> >
+>> ```base
+>> properties:
+>>   file.name:
+>>     displayName: Name
+>> views:
+>>   - type: table
+>>     name: Session Notes
+>>     filters:
+>>       and:
+>>         - file.inFolder("Session Notes")
+>>         - file.hasLink(this.file)
+>> ```
